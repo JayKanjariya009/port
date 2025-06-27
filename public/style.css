@@ -583,6 +583,7 @@ section {
     flex-shrink: 0;
 }
 
+
 .contact-details h3 {
     font-size: 1.1rem;
     font-weight: 600;
@@ -623,6 +624,16 @@ section {
 .form-group input::placeholder,
 .form-group textarea::placeholder {
     color: var(--text-muted);
+}
+
+.contact-info a {
+    text-decoration: none !important;
+    color: inherit;
+    cursor: pointer;
+}
+
+.contact-info a:hover {
+    color: var(--accent-primary);
 }
 
 /* Footer */

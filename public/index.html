@@ -307,7 +307,7 @@
                             <i class="fab fa-linkedin"></i>
                         </div>
                         <div class="contact-details">
-                            <a href="https://www.linkedin.com/in/jay-kanjariya-2674402ab" target="_blank"
+                            <a href="https://www.linkedin.com/in/jay-kanjariya-2674402ab" target="_blank"   
                                 aria-label="LinkedIn">
                                 <h3>LinkedIn</h3>
                                 <p>jay-kanjariya-2674402ab</p>
@@ -355,7 +355,7 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-text">
-                    <p>&copy; 2024 Jay Kanjariya. All rights reserved.</p>
+                    <p>&copy; <span id="footer-year"></span> Jay Kanjariya. All rights reserved.</p>
                 </div>
                 <div class="footer-social">
                     <a href="https://github.com/JayKanjariya009" target="_blank" aria-label="GitHub">
@@ -374,6 +374,13 @@
 
     <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
     <script src="script.js"></script>
+    <script>
+        // Set current year in footer
+        document.addEventListener('DOMContentLoaded', function() {
+            var yearSpan = document.getElementById('footer-year');
+            if (yearSpan) yearSpan.textContent = new Date().getFullYear();
+        });
+    </script>
 </body>
 
 </html>
