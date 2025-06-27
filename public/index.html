@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jay Kanjariya - MERN Stack Developer</title>
+    <meta name="description" content="Jay Kanjariya - Professional MERN Stack Developer Portfolio">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">JK</a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="highlight">Jay Kanjariya</span>
+                </h1>
+                <h2 class="hero-subtitle">MERN Stack Developer</h2>
+                <p class="hero-description">
+                    Crafting seamless digital experiences with modern web technologies
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#about" class="btn btn-secondary">Learn More</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/JayKanjariya009" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/jay-kanjariya-2674402ab" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:jaykanjariya009@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="photo.jpg" alt="Jay Kanjariya" class="profile-photo">
+                </div>
+                <div class="about-text">
+                    <p class="about-description">
+                        I'm a passionate MERN Stack Developer with a focus on creating
+                        efficient, scalable web applications. My expertise lies in building
+                        robust backend systems and intuitive user interfaces that deliver
+                        exceptional user experiences.
+                    </p>
+                    <p class="about-description">
+                        With a strong foundation in JavaScript and modern web technologies,
+                        I enjoy solving complex problems and turning ideas into reality
+                        through clean, maintainable code.
+                    </p>
+
+                    <div class="resume-download">
+                        <a href="#" onclick="downloadResume()" class="btn btn-outline">
+                            <i class="fas fa-download"></i>
+                            Download Resume
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="skills-grid">
+                
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fab fa-js-square"></i>
+                    </div>
+                    <h3 class="skill-name">JavaScript</h3>
+
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <h3 class="skill-name">React.js</h3>
+
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fab fa-node-js"></i>
+                    </div>
+                    <h3 class="skill-name">Node.js</h3>
+
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3 class="skill-name">Express.js</h3>
+
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3 class="skill-name">MongoDB</h3>
+
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3 class="skill-name">HTML5/CSS3</h3>
+
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fab fa-git-alt"></i>
+                    </div>
+                    <h3 class="skill-name">Git/GitHub</h3>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="skill-name">RESTful APIs</h3>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/JayKanjariya009/employee-management" target="_blank"
+                                    class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Employee Management System</h3>
+                        <p class="project-description">
+                            A comprehensive employee management system with CRUD operations,
+                            department management, and role-based access control.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Express</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">JWT</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/JayKanjariya009/blog_app" target="_blank"
+                                    class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Blog Application</h3>
+                        <p class="project-description">
+                            A full-featured blog platform with user authentication,
+                            post creation, commenting system, and admin dashboard.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Express</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">JWT</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/JayKanjariya009/task-manager" target="_blank"
+                                    class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Task Manager</h3>
+                        <p class="project-description">
+                            A productivity application for managing tasks and projects
+                            with priority setting, due dates, and progress tracking.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Express</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">
+                    Let's discuss your next project or just say hello!
+                </p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <a href="mailto:jaykanjariya009@gmail.com" aria-label="Email">
+                                <h3>Email</h3>
+                                <p>jaykanjariya009@gmail.com</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-details">
+                            <a href="https://www.linkedin.com/in/jay-kanjariya-2674402ab" target="_blank"
+                                aria-label="LinkedIn">
+                                <h3>LinkedIn</h3>
+                                <p>jay-kanjariya-2674402ab</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-details">
+                            <a href="https://github.com/JayKanjariya009" target="_blank" aria-label="GitHub">
+                                <h3>GitHub</h3>
+                                <p>JayKanjariya009</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <span class="btn-text">Send Message</span>
+                        <span class="btn-loading" style="display: none;">
+                            <i class="fas fa-spinner fa-spin"></i>
+                        </span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2024 Jay Kanjariya. All rights reserved.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/JayKanjariya009" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/jay-kanjariya-2674402ab" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:jaykanjariya009@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
