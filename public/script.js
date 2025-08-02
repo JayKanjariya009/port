@@ -116,7 +116,7 @@ contactForm.addEventListener('submit', async (e) => {
 
     try {
         // Send email using EmailJS (replace 'YOUR_SERVICE_ID' and 'YOUR_TEMPLATE_ID')
-        await emailjs.send('service_v4aguao', 'template_5k9c0uo', data);
+        await emailjs.send('service_v4aguao', 'template_1pev7af', data);
         showNotification('Message sent successfully! I\'ll get back to you soon.', 'success');
         contactForm.reset();
     } catch (error) {
